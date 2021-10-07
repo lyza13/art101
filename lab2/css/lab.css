@@ -1,20 +1,23 @@
 h1 {
-  color: blue;
+  color: #DFF3FF;
   font-size: 300%;
+  font-family: sans-serif;
 }
 
 p {
-  color: Red;
+  color: #316F42;
   text-indent: 25px;
+  margin: 15px;
+  font-family: "Courier New";
 }
 
 #content {
-  background-color: #FFFCE3;
+  background-color: #85BE96;
   width: 600px;
   min-height: 400px;
   padding: 15px;
   margin: 15px;
-  margin-left: 500px;
-  border: dashed 2px #000000;
   font-size: 18px;
+  border: dashed 8px #3D93C8;
+  border-radius: 10% 25%;
 }
