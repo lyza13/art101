@@ -1,0 +1,48 @@
+/*body {
+  background-color: #DFF3FF;
+}
+h1 {
+  color: #3D93C8;
+  font-size: 300%;
+  font-family: sans-serif;
+}
+h2 {
+  color: #3D93C8;
+  font-family: sans-serif;
+}
+p {
+  color: #316F42;
+  text-indent: 25px;
+  margin: 15px;
+  font-family: "Courier New";
+}
+
+#introduction {
+  background-color: #85BE96;
+  width: 850px;
+  min-height: 400px;
+  padding: 15px;
+  margin: 15px;
+  font-size: 18px;
+  border: dashed 8px #3D93C8;
+}
+
+#labs {
+  background-color: #85BE96;
+  width: 500px;
+  min-height: 200px;
+  padding: 15px;
+  margin: 15px;
+  font-size: 18px;
+  border: dashed 8px #3D93C8;
+}
+
+a:link {
+  color: #316F42;
+  font-family: "Courier New";
+}
+
+a:visited {
+  color: #316F42;
+  font-family: "Courier New";
+}
