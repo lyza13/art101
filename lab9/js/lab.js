@@ -13,5 +13,4 @@ var outputEl = document.getElementById("output");
 new1El.innerHTML = "This is a new line of output.";
 new2El.innerHTML = "Here is another line of output for the lab.";
 outputEl.appendChild(new1El)
-outputEl.appendChild(new2El)
-//outputEl.insertBefore(new2El,new1El);
+outputEl.insertBefore(new2El,new1El);
