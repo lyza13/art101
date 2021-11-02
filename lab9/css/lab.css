@@ -1,0 +1,12 @@
+#js {
+  font-size: 18px;
+  color: white;
+  font-family: "Monaco";
+  background-color: #85BE96;
+  width: 600px;
+  min-height: 50px;
+  padding: 15px;
+  margin: 15px;
+  font-size: 18px;
+  border: dashed 8px #3D93C8;
+}
