@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 10: JavaScript Events and Forms</title>
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	<script src="js/lab.js" defer></script>
+</head>
+<body>
+
+	<div id="content">
+
+	<img id="pic" src="img/matrix.jpg" style="float: right;">
+		<h2>Challenges</h2>
+			<p>The lab was not particularly challenging, and the only aspect that slowed us down was figuring out how to get our sorting function to display the sorted username under the script output when the submit button was clicked.</p>
+		<h2>Problems</h2>
+			<p>We struggled for a while to get our sorting function to display it's results. We resolved the issue by creating an anonymous function with the event listener that handled the output issue.</p>
+		<h2>Results</h2>
+			<p> Our results are below this message. Scroll your eyeballs downwards until to reach the output.</p>
+
+			<form>
+			<label for="user-name">Input your name: </label>
+			<input type="text" id="user-name" name="user-name">
+			<input type="button" id="my-button" value="Submit">
+			</form>
+
+			<h2>Script Output</h2>
+			<div id="output"></div>
+	</div>
+</body>
+</html>
