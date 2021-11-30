@@ -4,7 +4,7 @@
 * @since  11.29.2021
 * License: Public Domain.
 */
-var myUrl = "http://numberapi.com/random/year"
+var myUrl = "https://numberapi.com/random/year"
 
 function callAjax() {
 // Using the core $.ajax() method
