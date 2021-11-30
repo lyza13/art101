@@ -27,5 +27,5 @@ $.ajax({
     console.log(request, error);
 })
 }
-// calls AJAX on button click
+// calls AJAX on button click 
 $("#activate").click(callAjax);
