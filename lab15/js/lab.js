@@ -4,7 +4,7 @@
 * @since  11.29.2021
 * License: Public Domain.
 */
-var myUrl = "https://numberapi.com/random/year"
+var myUrl = "https://api.kanye.rest"
 
 function callAjax() {
 // Using the core $.ajax() method
@@ -13,12 +13,14 @@ $.ajax({
     url: myUrl,
     // POST or GET request
     type: "GET",
+    // The type of data we expect back
+    dataType : "json"
 })
 // If the request succeeds
 // data is passed back
 .done(function(data) {
     console.log("Success:", data);
-    $("#output").html(JSON.stringify(data));
+    $("#output").html(data.quote);
 })
 // If the request fails
 .fail(function(request,error) {
