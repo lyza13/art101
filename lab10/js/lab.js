@@ -16,15 +16,19 @@ var outputEl = document.getElementById("output");
 // sorts name alphabetically
 function sortUserName(name) {
   console.log("userName =", name);
+  debugger;
   //split string to array
-  var nameArray = name.split(" ").join('').split('');
+  var nameArray = name.split(" ").joi('').split('');
   console.log("nameArray =", nameArray);
+  debugger;
   //sort the array
   var nameArraySort = nameArray.sort(compareWords);
   console.log("nameArraySort =", nameArraySort);
+  debugger;
   //join array back to a string
   var nameSorted = nameArraySort.join('');
   console.log("nameSorted =", nameSorted);
+  debugger;
   return nameSorted;
 }
 //used within sortUserName function to sort capital and lowercase letters together - copied from compareWords function in source: https://dev.to/jenshaw/sorting-out-javascript-sort-4kbl

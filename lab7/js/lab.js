@@ -36,13 +36,6 @@ function compareWords(a,b) {
   }
 }
 
- function showPicture() {
-   var source = "https://images.unsplash.com/photo-1481349518771-20055b2a7b24?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80";
-   var img = document.getElementById('pictime')
-   img.src = source.replace('90x90', '225x225');
-   img.style.display = "block";
- }
-
 //makes the submit button output the sorted input string under script output
 buttonEl.addEventListener("click", function(){
   outputEl.innerHTML = sortUserName(inputEl.value);
