@@ -18,7 +18,7 @@ $.ajax({
 // data is passed back
 .done(function(data) {
     console.log("Success:", data);
-    $("#output").html(data);
+    $("#output").html(JSON.stringify(data));
 })
 // If the request fails
 .fail(function(request,error) {
